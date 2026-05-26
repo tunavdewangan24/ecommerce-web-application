@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://tunavdewangan24.github.io/ecommerce-web-application/",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
@@ -14,5 +17,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
 }
