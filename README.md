@@ -130,3 +130,4 @@ PATCH  /api/orders/:id/status Admin only
 ## Submission note
 
 You can submit this as the task project because it directly matches the screenshot requirements: product catalog, cart, checkout, admin/user login, backend APIs, product/order management, and MongoDB integration.
+
